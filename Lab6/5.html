@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+</head>
+<body style="text-align: center;color: #1362AD;">
+	<script type="text/javascript">
+		function areaC(){
+			var r=document.frm1.radius.value;
+			
+			A=(r*r*Math.PI);
+			//document.write("The area is "+A);
+			alert("The area is "+A);
+			
+		}
+		function areaR(){
+			var a=document.frm1.length.value;
+			var b=document.frm1.brth.value;
+			A=(l*b);
+			//document.write("The area is "+A);
+			alert("The area is "+A);
+			
+		}
+	</script>
+	<form name="frm1">
+<p>Enter radius of circle	
+<input id="circle" name="radius" type="text">
+<button onclick="areaC()">Calculate</button><br>
+Enter Length of Rectangle
+<input id="rect" name="length" type="text">
+<input id="rect" name="brth" type="text">
+<button onclick="areaR()">Calculate</button>
+</form>
+</body>
+</html>
