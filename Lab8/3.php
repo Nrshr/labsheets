@@ -14,6 +14,9 @@
 	define("c","5");
 	echo c;echo " is a constant here.<br>";
 echo date("l h:i:s A ");
+/*Comments multiline*/
+#comment singleline
+//comment singleline
 $t = date("h");
 
 if ($t < "10") {
